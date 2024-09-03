@@ -31,3 +31,64 @@ body {
     text-wrap: balance;
   }
 }
+.tech {
+  position: relative;
+}
+@property --angle{
+ syntax: "<angle>";
+ initial-value: 0deg;
+ inherits: false;
+}
+.tech::after, .tech::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), rgb(159,83,254), white, rgb(159,83,254));
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-radius: 6px;
+  animation: 3s spin linear infinite;
+  box-shadow: rgb(159,83,254);
+}
+.tech::before {
+  filter: blur(1.2rem);
+  opacity: 0.5;
+}
+@keyframes spin {
+  from{
+   --angle: 0deg;
+  }
+  to {
+  --angle: 360deg;
+  }
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.frameworksi {
+  animation: appear  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.frameworksii {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.frameworksiii {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}

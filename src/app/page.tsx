@@ -1,4 +1,6 @@
 import React from 'react'
+// import Link from "next/link";
+import { global } from 'styled-jsx/css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
@@ -6,18 +8,20 @@ import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 
 
+
+
 const page = () => {
   return (
     <>
     {/* navbar */}
       <header className='text-[#c79aff] py-5 cursor-pointer flex justify-center fixed top-0 left-0 right-0 backdrop-blur-xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit border-gray-300 bg-gradient-to-b from-zinc-200'>
-      <nav className="flex flex-col md:flex-row items-center gap-3 md:gap-10 bg-gray-900 py-3 px-8 rounded-full">
+      <nav className="flex flex-col md:flex-row items-center gap-3 md:gap-10 bg-gray-900 py-4 md:py-3 px-8 rounded-full">
       <ul className="flex gap-5 md:gap-10 ">
         <li className="text-white hover:text-[#c79aff]">about me</li>
-        <li className="hover:text-white">education</li>
         <li className="hover:text-white">experience</li>
+      <li className="hover:text-white">education</li> 
       </ul>
-      <div className="flex gap-3 md:gap-5 items-center">
+      <div className="hidden md:flex gap-3 md:gap-5 items-center">
         <a href="https://github.com/Labi-Joy" target="_blank">
           <FaGithub />
         </a>
@@ -51,7 +55,7 @@ const page = () => {
           get-it-done attitude to work.
         </p>
         <div className="py-5 flex items-center gap-5">
-          <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-slate-400 ">
+          <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-gray-900 hover:text-[#c79aff] nimate-jump-in animate-delay-300 animate-once">
             Download CV
           </button>
           <button className="text-sm text-gray-400 font-semibold hover:bg-gray-900 py-4 hover:shadow-lg hover:shadow-[#9f53fe] sh px-4 rounded-full hover:text-white transition-transform hover:translate-x-1 motion-reduce:transform-none">
@@ -72,29 +76,48 @@ const page = () => {
     </div>
 
     {/* frameworks */}
-    <div className="h-screen m-0 p-0   flex flex-col gap-20 items-center justify-center ">
-        <p className="text-[#c79aff] text-6xl hover:text-7xl animate-fadeIn ease-in">Javascript</p>
-        <p className="text-[#9f53fe] text-6xl hover:text-7xl animate-fadeIn ease-in">React</p>
-        <p className="text-[#6105d6] text-6xl hover:text-7xl animate-fadeIn ease-in">Next</p>
+    <div className=" h-screen m-0 p-0 flex flex-col gap-20 items-center justify-center  ">
+        <p className="frameworksi list text-[#c79aff] text-6xl">Javascript</p>
+        <p className="frameworksii list text-[#9f53fe] text-6xl">React</p>
+        <p className="frameworksiii list text-[#6105d6] text-6xl">Next</p>
+        
       </div>
 
       {/* usedtech */}
       <div className="flex flex-col md:ml-[-100px] lg:ml-[-550px] justify-center items-center px-10">
           <p className="font-thin w-[300px] text-3xl md:text-5xl md:w-[600px] text-white ">These are the technologies that I've been using </p>
   
-           <div className="flex gap-20 py-10">
+           <div className="flex gap-20 py-20 mb-10 ml-[30rem]">
+
   
-               <div className="rounded-md border border-yellow-500 font-thin px-4 py-3 text-white">
-                  <p className="pb-3 px-2 text-sm">Front-end Technologies</p>
-                  <div className="flex items-center gap-2 text-sm px-4"><FaReact className="text-[#00ffff]"/><p>React JS</p></div>
-                  <div className="flex items-center gap-2 text-sm px-4"><FaReact className="text-[#c79aff]"/><p>React Native</p></div>
-                  <div className="flex items-center gap-2 text-sm px-4"><RiNextjsFill  className=''/><p>Next JS</p></div>
-                  <div className="flex items-center gap-2 text-sm px-4"><p>React JS</p></div>
+               <div className="tech flex flex-col gap-3 rounded-md font-thin px-4 py-3 text-white bg-black">
+                  <p className="pb-3 px-2 text-sm font-medium">Front-end Engineer Design</p>
+                  <div className="flex items-center gap-4 text-sm px-4"><FaReact className="icon text-[#00ffff]"/><p>React JS</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><FaReact className="text-[#c79aff]"/><p>React Native</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><RiNextjsFill  className=''/><p>Next JS</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><p>Vite</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><p>Figma</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><p>GitHub</p></div>
                </div>
-  
-               <div className="rounded-md border border-warning-700 px-4 py-3">
+
+               <div className="tech flex flex-col gap-3 rounded-md font-thin px-4 py-3 text-white bg-black">
+                  <p className="pb-3 px-2 text-sm font-medium">Languages</p>
+                  <div className="flex items-center gap-4 text-sm px-4"><FaReact className="icon text-[#00ffff]"/><p>Javascript</p> <div className="flex items-center gap-4 text-sm px-4 text-black"><p>van</p></div></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><FaReact className="text-[#c79aff]"/><p>Typescript</p> <div className="flex items-center gap-4 text-sm px-4 text-black"><p>van</p></div></div>
+                  {/* <div className="flex items-center gap-4 text-sm px-4"><RiNextjsFill  className=''/><p>Next JS</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><p>React JS</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><p>React JS</p></div> */}
+               </div>
+
+               <div className="tech flex flex-col gap-3 rounded-md font-thin px-4 py-3 text-white bg-black">
+                  <p className="pb-3 px-2 text-sm font-medium">Front-end Technologies <span className='text-black'>Van</span></p>
+                  <div className="flex items-center gap-4 text-sm px-4"><FaReact className="icon text-[#00ffff]"/><p>HTML5</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><FaReact className="text-[#c79aff]"/><p>CSS</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><RiNextjsFill  className=''/><p>SASS</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><p>Tailwind Css</p></div>
+                  <div className="flex items-center gap-4 text-sm px-4"><p>React JS</p></div>
+               </div>
                 
-                </div>
            </div>
         </div>
 
