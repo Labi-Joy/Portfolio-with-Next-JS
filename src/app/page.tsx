@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import labi from "../../public/labi.jpg";
+import vitelogo from "../../public/vitelogo.png";
 // import Link from "next/link";
 import { global } from "styled-jsx/css";
 import { FaGithub, FaReact, FaLinkedin } from "react-icons/fa";
@@ -68,11 +69,6 @@ const page = () => {
 
         <div className="bg-[rgb(159,83,254)] w-50 h-50 rounded-full p-2  md:bg-purple-500">
           <div className="w-72 h-72 md:w-80 md:h-80 bg-[#9f53fe] rounded-full items-center justify-center overflow-hidden ">
-            {/* <img
-              src="https://i.ibb.co/V2qYrxR/My-Image2.jpg"
-              alt="my profile picture"
-              className="w-full h-full object-cover md:flex"
-            /> */}
           <Image
             src={labi}
             alt="my profil picture"
@@ -123,9 +119,11 @@ const page = () => {
   </div>
   <div className="flex items-center gap-4 text-sm px-4">
     <div className='flex items-center justify-center w-6 h-6 bg-gray-900 rounded-full px-2"'>
-      <img
-        src="https://i.ibb.co/cX0p3JX/download-removebg-preview.png"
-        className="w-4 "
+      <Image
+      src={vitelogo}
+      alt="vite logo"
+      className="w-4"
+      
       />
     </div>
     <p>Vite</p>
