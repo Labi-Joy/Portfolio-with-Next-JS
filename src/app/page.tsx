@@ -9,7 +9,6 @@ import { IoMail } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { DiCss3, DiHtml5, DiJavascript, DiSass } from "react-icons/di";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiVite } from "react-icons/si";
 
 const page = () => {
   return (
@@ -71,7 +70,7 @@ const page = () => {
           <div className="w-72 h-72 md:w-80 md:h-80 bg-[#9f53fe] rounded-full items-center justify-center overflow-hidden ">
           <Image
             src={labi}
-            alt="my profil picture"
+            alt="my profile picture"
             className="w-full h-full object-cover md:flex"
           />
           </div>
@@ -122,7 +121,7 @@ const page = () => {
       <Image
       src={vitelogo}
       alt="vite logo"
-      className="w-4"
+      className="w-5"
       
       />
     </div>
