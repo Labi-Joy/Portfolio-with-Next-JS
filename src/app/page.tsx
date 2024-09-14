@@ -60,7 +60,7 @@ const page = () => {
             get-it-done attitude to work.
           </p>
           <div className="py-5 flex items-center gap-5">
-            <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-gray-900 hover:text-[#c79aff] nimate-jump-in animate-delay-300 animate-once">
+            <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-slate-200 animate-jump-in animate-delay-200 animate-once">
               Download CV
             </button>
             <button className="text-sm text-gray-400 font-semibold hover:bg-gray-900 hover:shadow-xl hover:shadow-[#9f53fe] py-4 px-4 rounded-full hover:text-white transition-transform hover:translate-x-1 motion-reduce:transform-none">
@@ -105,10 +105,14 @@ const page = () => {
 
       {/* usedtech */}
       <div className="flex flex-col md:ml-[-100px] lg:ml-[-550px] justify-center items-center px-4 md:px-56">
-        <p className="font-thin w-[60%] text-3xl md:text-5xl md:w-[600px] text-white ">
-          These are the technologies that I've been using{" "}
+        <p className="font-thin w-[300px] text-3xl md:text-5xl md:w-[600px] text-white ">
+          These are the technologies that I've been using...{" "}
         </p>
-        
+
+    {/* all cards     */}
+    <div>
+      
+    </div>
   <div className="overflow-x-auto md:overflow-x-hidden w-full">
   <div className="flex gap-20 min-w-max py-20 mb-10 ml-[5rem] md:ml-[30rem]">
 
@@ -220,7 +224,7 @@ const page = () => {
 
       {/* footer */}
       <div>
-        <footer className="flex justify-center items-center">
+        <footer className="flex justify-center items-center mt-3">
           <div>
             <div className="flex w-full md:gap-[400px] lg:gap-[800px] items-center bg-gray-900 md:py-3 py-4 rounded-full">
               <p className="text-gray-200 px-8 md:px-12 md:font-extralight font-medium md:text-base text-lg">
