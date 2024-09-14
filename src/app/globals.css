@@ -33,6 +33,7 @@ body {
 }
 .tech {
   position: relative;
+
 }
 @property --angle{
  syntax: "<angle>";
@@ -77,20 +78,12 @@ body {
   }
 }
 
-.frameworksi {
+.framework{
   animation: appear  linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
-}
-.frameworksii {
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-.frameworksiii {
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  position: relative;
+  z-index: 1;
 }
 
 

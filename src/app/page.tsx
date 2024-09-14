@@ -1,25 +1,28 @@
+'use client';
 import React from "react";
 import Image from "next/image";
 import labi from "../../public/labi.jpg";
 import vitelogo from "../../public/vitelogo.png";
-// import Link from "next/link";
-import { global } from "styled-jsx/css";
+import Link from "next/link";
+// import { global } from "styled-jsx/css";
 import { FaGithub, FaReact, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill, RiJavascriptFill } from "react-icons/ri";
 import { DiCss3, DiHtml5, DiJavascript, DiSass } from "react-icons/di";
 import { BiLogoTypescript } from "react-icons/bi";
+import { SiJavascript } from "react-icons/si";
 
 const page = () => {
   return (
     <>
       {/* navbar */}
-      <header className="text-[#c79aff] py-5 cursor-pointer flex justify-center fixed top-0 left-0 right-0 backdrop-blur-xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit border-gray-300 bg-gradient-to-b from-zinc-200">
+      <header className="text-[#c79aff] z-10 py-5 cursor-pointer flex justify-center fixed top-0 left-0 right-0 backdrop-blur-xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit border-gray-300 bg-gradient-to-b from-zinc-200">
         <nav className="flex flex-col md:flex-row items-center gap-3 md:gap-10 bg-gray-900 py-4 md:py-3 px-8 rounded-full">
           <ul className="flex gap-5 md:gap-10 ">
+          
             <li className="text-white hover:text-[#c79aff]">about me</li>
-            <li className="hover:text-white">experience</li>
-            <li className="hover:text-white">education</li>
+            <Link href={'/experience'}> <li className="hover:text-white">experience</li></Link>
+            <Link href={'/education'}> <li className="hover:text-white">education</li></Link>
           </ul>
           <div className="hidden md:flex gap-3 md:gap-5 items-center">
             <a href="https://github.com/Labi-Joy" target="_blank">
@@ -40,12 +43,12 @@ const page = () => {
 
       {/* heropage */}
 
-      <div className="mt-32 md:mt-40 md:flex md:flex-row flex flex-col  gap-8 md:gap-0 items-center justify-center md:px-10">
+      <div className="mt-32 md:mt-40 md:flex md:flex-row flex flex-col gap-6 md:gap-0 items-center justify-center px-0 md:px-10">
         <div className="px-6 mb-4 md:mb-0 ">
-          <h1 className="text-5xl text-white mb-2">Hi, I'm <span className="type"></span> </h1>
-          <h2 className="text-6xl mb-3 text-white">
-            A Front<span className="text-[#d5bff1]">-end</span>{" "}
-            <span className="md:bg-gradient-to-r from-[#9f53fe] to- text-[#9f53fe] md:text-white">
+          <h1 className="text-4xl md:text-5xl text-white mb-2"> Hi, I'm Joy </h1>
+          <h2 className="text-5xl md:text-6xl mb-3 text-white">
+            A Front<span className="text-[#d5bff1]">-end</span> <br className="md:hidden " />
+             <span className="md:bg-gradient-to-r from-[#9f53fe] to- text-[#9f53fe] md:text-white">
               Developer
             </span>{" "}
           </h2>
@@ -57,41 +60,57 @@ const page = () => {
             get-it-done attitude to work.
           </p>
           <div className="py-5 flex items-center gap-5">
-            <button className="bg-gray-900 text-white py-3 px-4 rounded-full text-sm font-semibold hover:bg-gray-900 hover:text-[#c79aff] nimate-jump-in animate-delay-300 animate-once">
+            <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-gray-900 hover:text-[#c79aff] nimate-jump-in animate-delay-300 animate-once">
               Download CV
             </button>
-            <button className="text-sm text-gray-400 font-semibold hover:bg-gray-900 py-4 hover:shadow-round hover:shadow-[#9f53fe] sh px-4 rounded-full hover:text-white transition-transform hover:translate-x-1 motion-reduce:transform-none">
+            <button className="text-sm text-gray-400 font-semibold hover:bg-gray-900 hover:shadow-xl hover:shadow-[#9f53fe] py-4 px-4 rounded-full hover:text-white transition-transform hover:translate-x-1 motion-reduce:transform-none">
               See experiences
             </button>
           </div>
         </div>
 
         <div className="bg-[rgb(159,83,254)] w-50 h-50 rounded-full p-2  md:bg-purple-500">
-          <div className="w-72 h-72 md:w-80 md:h-80 bg-[#9f53fe] rounded-full items-center justify-center overflow-hidden ">
+          <div className="w-72 h-72 md:w-80 md:h-80 rounded-full items-center justify-center overflow-hidden">
           <Image
             src={labi}
             alt="my profile picture"
-            className="w-full h-full object-cover md:flex"
+            className="w-full h-full object-cover"
           />
           </div>
         </div>
       </div>
 
+      {/* slider */}
+      {/* <div className="snap-x px-10 text-black py-4 gap-2 items-center flex">
+  <div className="snap-normal snap-center bg-[#c3c99e] rounded-2xl items-center gap-2">
+    <div className="px-4 py-10">
+      <SiJavascript className="text-[#dbf531] bg-black text-lg"/>
+      <p>Javascript</p>
+    </div>
+  </div>
+  <div className="snap-normal snap-center bg-[#7d9ca5] rounded-2xl">
+  <div className="px-4 py-10">
+      <FaReact className="text-[#00ffff]"/>
+      <p>React</p>
+    </div>
+  </div>
+</div> */}
+
       {/* frameworks */}
-      <div className=" h-screen flex flex-col gap-20 items-center justify-center  ">
-        <p className="frameworksi list text-[#c79aff] text-6xl">Javascript</p>
-        <p className="frameworksii list text-[#9f53fe] text-6xl">React</p>
-        <p className="frameworksiii list text-[#6105d6] text-6xl">Next</p>
+      <div className=" h-screen flex flex-col gap-20 items-center justify-center">
+        <p className="framework list text-[#c79aff] text-6xl">Javascript</p>
+        <p className="framework list text-[#9f53fe] text-6xl">React</p>
+        <p className="framework list text-[#6105d6] text-6xl">Next</p>
       </div>
 
       {/* usedtech */}
-      <div className="flex flex-col md:ml-[-100px] lg:ml-[-550px] justify-center items-center px-10 md:px-56">
-        <p className="font-thin w-[300px] text-3xl md:text-5xl md:w-[600px] text-white ">
+      <div className="flex flex-col md:ml-[-100px] lg:ml-[-550px] justify-center items-center px-4 md:px-56">
+        <p className="font-thin w-[60%] text-3xl md:text-5xl md:w-[600px] text-white ">
           These are the technologies that I've been using{" "}
         </p>
         
-        <div className="overflow-x-auto md:overflow-x-hidden w-full">
-        <div className="flex gap-20 min-w-max py-20 mb-10 ml-[5rem] md:ml-[30rem]">
+  <div className="overflow-x-auto md:overflow-x-hidden w-full">
+  <div className="flex gap-20 min-w-max py-20 mb-10 ml-[5rem] md:ml-[30rem]">
 
 {/* card 1 */}
 <div className="tech flex flex-col gap-3 rounded-md font-thin px-4 py-3 text-white bg-black">
@@ -140,7 +159,7 @@ const page = () => {
   <p className="pb-3 px-2 text-sm font-light">Languages</p>
   <div className="flex items-center gap-4 text-sm px-4">
     <div className='flex items-center justify-center w-6 h-6 bg-gray-900 rounded-full px-2"'>
-      <DiJavascript className="icon text-yellow-300 rounded-none" />
+      <RiJavascriptFill className="icon text-yellow-300" />
     </div>
     <p>Javascript</p>{" "}
     <div className="flex items-center gap-4 text-sm px-4 text-black">
