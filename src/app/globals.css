@@ -86,6 +86,14 @@ body {
   z-index: 1;
 }
 
+.frameworks {
+  animation: appear  linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+  position: relative;
+  z-index: 1;
+}
+
 
 .type::before{
   content: "Eden";
