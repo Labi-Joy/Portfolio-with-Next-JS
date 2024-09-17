@@ -112,40 +112,43 @@ const page = () => {
       <div>
         <Xpcard
           role="Front-end Software Developer"
-          worktype=""
-          date=""
-          location="Vergold"
-          time=""
-          company=""
-          description1=""
+          worktype="Hybrid"
+          date="July 2024"
+          location="OYO STATE - NIGERIA"
+          time="August 2024"
+          company="Cogito"
+          description1="Hired as the Team Lead Front-end developer to build an in-house project for the commpany"
           description2=""
-          description3=""
+          description3="Engaged team meambers to improve and increase production speed by 25% while reporting 
+                        to the Overall Front-end Team Lead ensuring to get the job done fast and in good standard
+                        to enhance user experience"
           description4=""
         />
         <Xpcard
           role="Front-end Software Developer"
-          worktype=""
-          date=""
-          location="Doorstep Groceries"
-          time=""
-          company=""
-          description1=" Designed and developed an online grocery shopping website to help its users to get 
+          worktype="Contract"
+          date="June 2024"
+          location="IBADAN - NIGERIA"
+          time="Present"
+          company="Doorstep Groceries"
+          description1=" Designed and developed an online grocery shopping website to help its users get 
                         their groceries without stress at the comfort of their home."
           description2="I handled the Front-end part of the project. It features interactive elements and a 
                         responsive layout."
-          description3=""
+          description3="Assisted in redesigning the company's website, improving its responsiveness and visual appearance"
           description4=""
         />
         <Xpcard
-          role="Intern"
-          worktype=""
-          date=""
-          location="Vergold"
-          time=""
-          company=""
-          description1=""
+          role="Front-end Developer Intern"
+          worktype="Hybrid"
+          date="Feb 2024"
+          location="AKOBO, IBADAN - NIGERIA"
+          time="April 2024"
+          company="Vergold"
+          description1="Finished internship as one of the best and dedicated Front-end interns at the comapny."
           description2=""
-          description3=""
+          description3="Wrote clean, maintainable codes. And also participated in code reviews to ensure good quality
+                        and product delivery"
           description4=""
         />
       </div>

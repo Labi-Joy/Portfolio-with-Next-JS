@@ -57,14 +57,14 @@ const page = () => {
             as an experienced{" "}
             <span className="text-gray-300">Front-End Software Engineer</span>.
             I have been able to bring to life a lot of projects because of my
-            get-it-done attitude to work.
+            get-it-done attitude to work. <span>I craft responsive websites where technologies meets <span className="text-gray-400">creativity</span>.</span>
           </p>
           <div className="py-5 flex items-center gap-5">
             <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-slate-300 animate-jump-in animate-delay-200 animate-once">
               Download CV
             </button>
-            <Link href={'/experience'}><button className="text-sm text-gray-400 font-semibold hover:bg-gray-900 hover:shadow-xl hover:shadow-[#9f53fe] py-4 px-4 rounded-full hover:text-white transition-transform hover:translate-x-1 motion-reduce:transform-none">
-              See experiences
+            <Link href={'/projects'}><button className="text-sm hover:text-slate-200 font-semibold text-[#c79aff] py-4 px-4 rounded-full transition-transform hover:translate-x-1 motion-reduce:transform-none">
+              See my projects
             </button></Link>
           </div>
         </div>
@@ -79,22 +79,6 @@ const page = () => {
           </div>
         </div>
       </div>
-
-      {/* slider */}
-      {/* <div className="snap-x px-10 text-black py-4 gap-2 items-center flex">
-  <div className="snap-normal snap-center bg-[#c3c99e] rounded-2xl items-center gap-2">
-    <div className="px-4 py-10">
-      <SiJavascript className="text-[#dbf531] bg-black text-lg"/>
-      <p>Javascript</p>
-    </div>
-  </div>
-  <div className="snap-normal snap-center bg-[#7d9ca5] rounded-2xl">
-  <div className="px-4 py-10">
-      <FaReact className="text-[#00ffff]"/>
-      <p>React</p>
-    </div>
-  </div>
-</div> */}
 
       {/* frameworks */}
       <div className=" h-screen flex flex-col gap-20 items-center justify-center">
@@ -181,6 +165,7 @@ const page = () => {
   </div>
 </div>
 
+{/* card 3 */}
 <div className="tech flex flex-col gap-3 rounded-md font-thin px-4 py-3 text-white bg-black">
   <p className="pb-3 px-2 text-sm font-light">
     Front-end Technologies <span className="text-black">Vanil</span>
@@ -215,12 +200,21 @@ const page = () => {
         </div>
  
 
-      {/* testimonials
-  <div className='py-10 px-8'>
-    <div className="slider bg-white">
-    <div className='flex items-center justify-center w-12 h-12 bg-gray-900 rounded-full px-2"'><img src='https://i.ibb.co/V2qYrxR/My-Image2.jpg' className='w-8 '/></div>
+      {/* slider */}
+      {/* <div className="snap-x px-10 text-black py-4 gap-2 items-center flex">
+  <div className="snap-normal snap-center bg-[#c3c99e] rounded-2xl items-center gap-2">
+    <div className="px-4 py-10">
+      <SiJavascript className="text-[#dbf531] bg-black text-lg"/>
+      <p>Javascript</p>
     </div>
-  </div> */}
+  </div>
+  <div className="snap-normal snap-center bg-[#7d9ca5] rounded-2xl">
+  <div className="px-4 py-10">
+      <FaReact className="text-[#00ffff]"/>
+      <p>React</p>
+    </div>
+  </div>
+</div> */}
 
       {/* footer */}
       <div>
