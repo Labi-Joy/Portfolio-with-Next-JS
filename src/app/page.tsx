@@ -45,7 +45,7 @@ const page = () => {
 
       <div className="mt-32 md:mt-40 md:flex md:flex-row flex flex-col gap-6 md:gap-0 items-center justify-center px-0 md:px-10">
         <div className="px-6 mb-4 md:mb-0 ">
-          <h1 className="text-4xl md:text-5xl text-white mb-2"> Hi, I'm Joy </h1>
+          <h1 className="text-4xl md:text-5xl text-white mb-2"> Hi, I&apos;m Joy </h1>
           <h2 className="text-5xl md:text-6xl mb-3 text-white">
             A Front<span className="text-[#d5bff1]">-end</span> <br className="md:hidden " />
              <span className="md:bg-gradient-to-r from-[#9f53fe] to- text-[#9f53fe] md:text-white">
@@ -53,7 +53,7 @@ const page = () => {
             </span>{" "}
           </h2>
           <p className="md:w-[70%] text-gray-500 mt-5">
-            With my <span className="text-gray-300">1 year</span> of experience
+            With my <span className="text-gray-300">6 months</span> of experience
             as an experienced{" "}
             <span className="text-gray-300">Front-End Software Engineer</span>.
             I have been able to bring to life a lot of projects because of my
@@ -90,7 +90,7 @@ const page = () => {
       {/* usedtech */}
       <div className="flex flex-col md:ml-[-100px] lg:ml-[-550px] justify-center items-center px-4 md:px-56">
         <p className="font-thin w-[300px] text-3xl md:text-5xl md:w-[600px] text-white ">
-          These are the technologies that I've been using{" "}
+          These are the technologies that I&apos;ve been using{" "}
         </p>
 
     {/* all cards     */}
@@ -225,7 +225,7 @@ const page = () => {
                 Connect with me
               </p>
               <p className="md:hidden text-gray-200 px-8 md:px-12 md:font-extralight font-medium md:text-base text-lg">
-                Let's connect 
+                Let&apos;s connect 
               </p>
 
               <div className="flex gap-3 items-center text-[#c79aff] px-12">

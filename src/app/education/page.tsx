@@ -133,7 +133,7 @@ const page = () => {
                 Connect with me
               </p>
               <p className="md:hidden text-gray-200 px-8 md:px-12 md:font-extralight font-medium md:text-base text-lg">
-                Let's connect
+                Let&apos;s connect
               </p>
 
               <div className="flex gap-3 items-center text-[#c79aff] px-12">
