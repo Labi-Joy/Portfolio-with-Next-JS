@@ -43,7 +43,7 @@ const page = () => {
 
       {/* heropage */}
 
-      <div className="mt-32 md:mt-40 md:flex md:flex-row flex flex-col gap-6 md:gap-0 items-center justify-center px-0 md:px-10">
+      <div className="mt-32 md:mt-40 md:flex lg:flex-row flex flex-col gap-6 md:gap-12 mb-0 lg:gap-0 items-center justify-center px-0 md:px-10">
         <div className="px-6 mb-4 md:mb-0 ">
           <h1 className="text-4xl md:text-5xl text-white mb-2"> Hi, I&apos;m Joy </h1>
           <h2 className="text-5xl md:text-6xl mb-3 text-white">
@@ -52,8 +52,8 @@ const page = () => {
               Developer
             </span>{" "}
           </h2>
-          <p className="md:w-[70%] text-gray-500 mt-5">
-            With my <span className="text-gray-300">6 months</span> of experience
+          <p className="lg:w-[70%] text-gray-500 mt-5">
+            With my <span className="text-gray-300">months</span> of experience
             as an experienced{" "}
             <span className="text-gray-300">Front-End Software Engineer</span>.
             I have been able to bring to life a lot of projects because of my
@@ -63,8 +63,8 @@ const page = () => {
             <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-slate-300 animate-jump-in animate-delay-200 animate-once">
               Download CV
             </button>
-            <Link href={'/projects'}><button className="text-sm hover:text-slate-200 font-semibold text-[#c79aff] py-4 px-4 rounded-full transition-transform hover:translate-x-1 motion-reduce:transform-none">
-              See my projects
+            <Link href={'/experience'}><button className="text-sm hover:text-slate-200 font-semibold text-[#c79aff] py-4 px-4 rounded-full transition-transform hover:translate-x-1 motion-reduce:transform-none">
+              See experience
             </button></Link>
           </div>
         </div>
@@ -98,7 +98,7 @@ const page = () => {
       
     </div>
   <div className="overflow-x-auto lg:overflow-x-hidden w-full">
-  <div className="flex gap-20 min-w-max py-20 mb-10 ml-[5rem] md:ml-[30rem]">
+  <div className="flex gap-20 min-w-max py-20 mb-10 ml-[5rem] lg:ml-[30rem] md:ml-[8rem]">
 
 {/* card 1 */}
 <div className="tech flex flex-col gap-3 rounded-md font-thin px-4 py-3 text-white bg-black">
@@ -242,7 +242,7 @@ const page = () => {
                   href="mailto:joyayoeden@gmail.com"
                   target="_blank"
                   id="email"
-                  className="hidden md:block"
+                  className="hidden lg:block"
                 >
                   <IoMail />
                 </a>
