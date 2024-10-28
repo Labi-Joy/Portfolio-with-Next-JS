@@ -80,16 +80,17 @@ const page = () => {
             </Link>
           </ul>
           <div className="hidden md:flex gap-3 md:gap-5 items-center">
-            <a href="https://github.com/Labi-Joy" target="_blank">
+            <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
               <FaGithub />
             </a>
             <a
               href="https://www.linkedin.com/in/joy-eden-093a20305"
               target="_blank"
+              className="hover:text-white"
             >
               <FaLinkedin />
             </a>
-            <a href="mailto:joyayoeden@gmail.com" target="_blank" id="email">
+            <a href="mailto:joyayoeden@gmail.com" target="_blank" id="email" className="hover:text-white">
               <IoMail />
             </a>
           </div>
@@ -166,12 +167,13 @@ const page = () => {
               </p>
 
               <div className="flex gap-3 items-center text-[#c79aff] px-12">
-                <a href="https://github.com/Labi-Joy" target="_blank">
+                <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
                   <FaGithub />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/joy-eden-093a20305"
                   target="_blank"
+                  className="hover:text-white"
                 >
                   <FaLinkedin />
                 </a>
@@ -179,11 +181,11 @@ const page = () => {
                   href="mailto:joyayoeden@gmail.com"
                   target="_blank"
                   id="email"
-                  className='hidden md:block'
+                  className='hidden lg:block className="hover:text-white"'
                 >
                   <IoMail />
                 </a>
-                <a href="https://github.com/Labi-Joy" target="_blank">
+                <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
                   <FaTwitter />
                 </a>
               </div>

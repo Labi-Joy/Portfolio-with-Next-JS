@@ -25,16 +25,17 @@ const page = () => {
             <Link href={'/education'}> <li className="hover:text-white">education</li></Link>
           </ul>
           <div className="hidden md:flex gap-3 md:gap-5 items-center">
-            <a href="https://github.com/Labi-Joy" target="_blank">
+            <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
               <FaGithub />
             </a>
             <a
               href="https://www.linkedin.com/in/joy-eden-093a20305"
               target="_blank"
+              className="hover:text-white"
             >
               <FaLinkedin />
             </a>
-            <a href="mailto:joyayoeden@gmail.com" target="_blank" id="email">
+            <a href="mailto:joyayoeden@gmail.com" target="_blank" id="email" className="hover:text-white">
               <IoMail />
             </a>
           </div>
@@ -53,16 +54,18 @@ const page = () => {
             </span>{" "}
           </h2>
           <p className="lg:w-[70%] text-gray-500 mt-5">
-            With my <span className="text-gray-300">months</span> of experience
-            as an experienced{" "}
-            <span className="text-gray-300">Front-End Software Engineer</span>.
+            {/* With my <span className="text-gray-300">months</span> of experience
+            as an experienced{" "} */}
+            With my experience as a <span></span>
+             <span className="text-gray-300">Front-end software developer</span>.
             I have been able to bring to life a lot of projects because of my
-            get-it-done attitude to work. <span>I craft responsive websites where technologies meets <span className="text-gray-400">creativity</span>.</span>
+            get-it-done attitude to work. <span>I craft responsive websites where technologies meets <span className="">creativity</span> .</span>
           </p>
           <div className="py-5 flex items-center gap-5">
-            <button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-slate-300 animate-jump-in animate-delay-200 animate-once">
+            <Link href={'/download'}><button className="bg-white text-black py-3 px-4 rounded-full text-sm font-semibold hover:bg-slate-300 animate-jump-in animate-delay-200 animate-once">
               Download CV
             </button>
+            </Link>
             <Link href={'/experience'}><button className="text-sm hover:text-slate-200 font-semibold text-[#c79aff] py-4 px-4 rounded-full transition-transform hover:translate-x-1 motion-reduce:transform-none">
               See experience
             </button></Link>
@@ -229,12 +232,16 @@ const page = () => {
               </p>
 
               <div className="flex gap-3 items-center text-[#c79aff] px-12">
-                <a href="https://github.com/Labi-Joy" target="_blank">
+                <a href="https://github.com/Labi-Joy" 
+                   target="_blank"
+                   className="hover:text-white">
                   <FaGithub />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/joy-eden-093a20305"
                   target="_blank"
+                  className="hover:text-white"
+
                 >
                   <FaLinkedin />
                 </a>
@@ -242,11 +249,11 @@ const page = () => {
                   href="mailto:joyayoeden@gmail.com"
                   target="_blank"
                   id="email"
-                  className="hidden lg:block"
+                  className="hidden lg:block hover:text-white"
                 >
                   <IoMail />
                 </a>
-                <a href="https://github.com/Labi-Joy" target="_blank">
+                <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
                   <FaTwitter />
                 </a>
               </div>
