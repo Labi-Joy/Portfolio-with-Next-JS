@@ -11,6 +11,7 @@ interface EducardList {
   location: string;
   time: string;
   status: string;
+  span: string;
 }
 
 const Educard: React.FC<EducardList> = ({
@@ -20,6 +21,7 @@ const Educard: React.FC<EducardList> = ({
   location,
   time,
   status,
+  span,
 }) => {
   return (
     <>
@@ -40,6 +42,7 @@ const Educard: React.FC<EducardList> = ({
 
           <div className="md:w-[] text-xl md:text-base text-green-300 cursor-pointer hover:text-green-200 font-extralight">
             {status}
+            <span hidden>{span}</span>
           </div>
         </div>
       </div>
@@ -90,6 +93,7 @@ const page = () => {
           location="Osun State, Osogbo"
           time="SEPT 2023"
           status="Veiw Certificate"
+          span=""
         />
         <Educard
           instutution="Udemy"
@@ -98,6 +102,7 @@ const page = () => {
           location="Udemy"
           time="PRESENT"
           status="In Progress"
+          span=""
         />
         <Educard
           instutution="Free Code Camp"
@@ -106,6 +111,7 @@ const page = () => {
           location="{ Free-code-camp }"
           time="PRESENT"
           status="In Progress"
+          span="io"
         />
         <Educard
           instutution="Vergold"
@@ -114,6 +120,7 @@ const page = () => {
           location="Akobo, Ibadan"
           time="APRIL 2024"
           status="Veiw Certificate"
+          span=""
         />
         <Educard
           instutution="Cousera"
@@ -122,6 +129,7 @@ const page = () => {
           location="Online Learning"
           time="MARCH 2024"
           status="Veiw Certificate"
+          span="io"
         />
       </div>
 
