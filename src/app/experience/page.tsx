@@ -116,9 +116,15 @@ const page = () => {
             <span className="font-extralight">/&gt;</span>
           </strong>{" "}
         </h4>
-        <button className="bg-white text-black py-2 px-6 rounded-full text-xs font-semibold hover:bg-slate-300 animate-jump-in animate-delay-300 animate-once">
-          Download CV
-        </button>
+        <Link
+          href={
+            "https://docs.google.com/document/d/1WM_7wIGpVMtWMR_wrb0HEoikiMgO8DHR-WJfeCvSv4E/edit?usp=drivesdk"
+          }
+        >
+          <button className="bg-white text-black py-2 px-6 rounded-full text-xs font-semibold hover:bg-slate-300 animate-jump-in animate-delay-300 animate-once">
+            Download CV
+          </button>
+        </Link>
       </div>
 
       {/* experience cards */}
@@ -215,7 +221,7 @@ const page = () => {
                 </a>
                 <a
                   href="https://github.com/Labi-Joy"
-                  target="_blank"
+                  target="https://x.com/labi_EJ"
                   className="hover:text-white"
                 >
                   <FaTwitter />

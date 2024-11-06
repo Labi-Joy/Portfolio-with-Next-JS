@@ -280,7 +280,7 @@ const page = () => {
                 </a>
                 <a
                   href="https://github.com/Labi-Joy"
-                  target="_blank"
+                  target="https://x.com/labi_EJ"
                   className="hover:text-white"
                 >
                   <FaTwitter />

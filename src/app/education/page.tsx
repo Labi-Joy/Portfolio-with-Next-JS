@@ -67,7 +67,11 @@ const page = () => {
             <li className="hover:text-[#c79aff] text-white">education</li>
           </ul>
           <div className="hidden md:flex gap-3 md:gap-5 items-center">
-            <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
+            <a
+              href="https://github.com/Labi-Joy"
+              target="_blank"
+              className="hover:text-white"
+            >
               <FaGithub />
             </a>
             <a
@@ -77,7 +81,12 @@ const page = () => {
             >
               <FaLinkedin />
             </a>
-            <a href="mailto:joyayoeden@gmail.com" target="_blank" id="email" className="hover:text-white">
+            <a
+              href="mailto:joyayoeden@gmail.com"
+              target="_blank"
+              id="email"
+              className="hover:text-white"
+            >
               <IoMail />
             </a>
           </div>
@@ -146,7 +155,11 @@ const page = () => {
               </p>
 
               <div className="flex gap-3 items-center text-[#c79aff] px-12">
-                <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
+                <a
+                  href="https://github.com/Labi-Joy"
+                  target="_blank"
+                  className="hover:text-white"
+                >
                   <FaGithub />
                 </a>
                 <a
@@ -164,7 +177,11 @@ const page = () => {
                 >
                   <IoMail />
                 </a>
-                <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
+                <a
+                  href="https://x.com/labi_EJ"
+                  target="_blank"
+                  className="hover:text-white"
+                >
                   <FaTwitter />
                 </a>
               </div>
