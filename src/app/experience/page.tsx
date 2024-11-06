@@ -80,7 +80,11 @@ const page = () => {
             </Link>
           </ul>
           <div className="hidden md:flex gap-3 md:gap-5 items-center">
-            <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
+            <a
+              href="https://github.com/Labi-Joy"
+              target="_blank"
+              className="hover:text-white"
+            >
               <FaGithub />
             </a>
             <a
@@ -90,7 +94,12 @@ const page = () => {
             >
               <FaLinkedin />
             </a>
-            <a href="mailto:joyayoeden@gmail.com" target="_blank" id="email" className="hover:text-white">
+            <a
+              href="mailto:joyayoeden@gmail.com"
+              target="_blank"
+              id="email"
+              className="hover:text-white"
+            >
               <IoMail />
             </a>
           </div>
@@ -101,8 +110,11 @@ const page = () => {
       <div className="mt-32 px-10 flex flex-col gap-6 justify-center items-center">
         <h4 className="w-[full] text-sm md:text-base md:w-[500px] text-center font-extralight px-8 md:px-4 lg:px-0">
           {" "}
-          &lt; Get to know me better and explore my journey
-          as a <strong className="md:block">Front-End Software Engineer  <span className="font-extralight">/&gt;</span></strong> {" "}
+          &lt; Get to know me better and explore my journey as a{" "}
+          <strong className="md:block">
+            Front-End Software Engineer{" "}
+            <span className="font-extralight">/&gt;</span>
+          </strong>{" "}
         </h4>
         <button className="bg-white text-black py-2 px-6 rounded-full text-xs font-semibold hover:bg-slate-300 animate-jump-in animate-delay-300 animate-once">
           Download CV
@@ -118,9 +130,9 @@ const page = () => {
           location="OYO STATE - NIGERIA"
           time="August 2024"
           company="Cogito"
-          description1="Hired as the Team Lead Front-end developer to build an in-house project for the commpany"
+          description1="Hired as the Team Lead Front-end developer to build an in-house project for the company"
           description2=""
-          description3="Engaged team meambers to improve and increase production speed by 25% while reporting 
+          description3="Engaged team members to improve and increase production speed by 25% while reporting 
                         to the Overall Front-end Team Lead ensuring to get the job done fast and in good standard
                         to enhance user experience"
           description4=""
@@ -154,8 +166,8 @@ const page = () => {
         />
       </div>
 
-       {/* footer */}
-       <div>
+      {/* footer */}
+      <div>
         <footer className="flex justify-center items-center mt-3">
           <div>
             <div className="flex w-full md:gap-[400px] lg:gap-[600px] items-center bg-gray-900 md:py-3 py-4 rounded-full">
@@ -163,11 +175,15 @@ const page = () => {
                 Connect with me
               </p>
               <p className="md:hidden text-gray-200 px-8 md:px-12 md:font-extralight font-medium md:text-base text-lg">
-                Let&apos;s connect 
+                Let&apos;s connect
               </p>
 
               <div className="flex gap-3 items-center text-[#c79aff] px-12">
-                <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
+                <a
+                  href="https://github.com/Labi-Joy"
+                  target="_blank"
+                  className="hover:text-white"
+                >
                   <FaGithub />
                 </a>
                 <a
@@ -185,7 +201,11 @@ const page = () => {
                 >
                   <IoMail />
                 </a>
-                <a href="https://github.com/Labi-Joy" target="_blank" className="hover:text-white">
+                <a
+                  href="https://github.com/Labi-Joy"
+                  target="_blank"
+                  className="hover:text-white"
+                >
                   <FaTwitter />
                 </a>
               </div>
