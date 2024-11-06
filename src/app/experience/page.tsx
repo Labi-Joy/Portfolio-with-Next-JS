@@ -131,14 +131,14 @@ const page = () => {
       <div>
         <Xpcard
           role="Front-end Software Developer"
-          worktype="Conract"
+          worktype="Contract"
           date="Nov 2024"
           location="UI - NIGERIA"
           time="Present"
           company="Custom Software & Management System"
           description1="Hired as the Team Lead Front-end developer to build an in-house project for the company"
           description2=""
-          description3="Currently working as a conract web-developer for the stated company"
+          description3="Currently working as a contract web-developer for the stated company"
           description4=""
         />
         <Xpcard
@@ -176,7 +176,7 @@ const page = () => {
           location="AKOBO, IBADAN - NIGERIA"
           time="April 2024"
           company="Vergold"
-          description1="Finished internship as one of the best and dedicated Front-end interns at the comapny."
+          description1="Finished internship as one of the best and dedicated Front-end interns at the company."
           description2=""
           description3="Wrote clean, maintainable codes. And also participated in code reviews to ensure good quality
                         and product delivery"
