@@ -125,6 +125,18 @@ const page = () => {
       <div>
         <Xpcard
           role="Front-end Software Developer"
+          worktype="Conract"
+          date="Nov 2024"
+          location="UI - NIGERIA"
+          time="Present"
+          company="Custom Software & Management System"
+          description1="Hired as the Team Lead Front-end developer to build an in-house project for the company"
+          description2=""
+          description3="Currently working as a conract web-developer for the stated company"
+          description4=""
+        />
+        <Xpcard
+          role="Front-end Software Developer"
           worktype="Hybrid"
           date="July 2024"
           location="OYO STATE - NIGERIA"
