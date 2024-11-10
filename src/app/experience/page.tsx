@@ -136,7 +136,7 @@ const page = () => {
           location="UI - NIGERIA"
           time="Present"
           company="Custom Software & Management System"
-          description1="Hired as the Team Lead Front-end developer to build an in-house project for the company"
+          description1="Hired as a contract Front-end developer to build a sub-university website for the company"
           description2=""
           description3="Currently working as a contract web-developer for the stated company"
           description4=""
@@ -220,8 +220,8 @@ const page = () => {
                   <IoMail />
                 </a>
                 <a
-                  href="https://github.com/Labi-Joy"
-                  target="https://x.com/labi_EJ"
+                  href="https://x.com/labi_EJ"
+                  target="_blank"
                   className="hover:text-white"
                 >
                   <FaTwitter />

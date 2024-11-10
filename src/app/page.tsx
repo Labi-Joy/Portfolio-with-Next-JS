@@ -279,8 +279,8 @@ const page = () => {
                   <IoMail />
                 </a>
                 <a
-                  href="https://github.com/Labi-Joy"
-                  target="https://x.com/labi_EJ"
+                  href="https://x.com/labi_EJ"
+                  target="_blank"
                   className="hover:text-white"
                 >
                   <FaTwitter />
